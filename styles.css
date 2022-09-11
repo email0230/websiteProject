@@ -1,24 +1,74 @@
-.article {
-    margin-left:25%;
-    margin-right:25%;
+:root {
+    --main-accent-color: #2bbc8a
 }
+
+.article {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
 .articleThumb {
     margin-left: 20%;
-    margin-right:20%;
+    margin-right: 20%;
     border-bottom: 6px solid black;
     border-bottom-style: double;
     /*list-style: ;*/
 }
+
+#articlePageTitle {
+    padding: 0px 0px;
+    margin-top: 8%;
+    line-height: 0;
+}
+
+#articlePageSubtitle{
+    color: var(--main-accent-color);
+}
+
+#articleTitle {
+    color: var(--main-accent-color);
+    padding-top: 5%;
+}
+#articleDate { /*basically the footer for the title*/
+    border-bottom: 3px solid gray;
+    border-bottom-style: dotted; 
+    padding-bottom: 5%;
+}
+
+a {
+    color: #606060;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 body {
     /*background-color: lightgray;*/
     font-family: 'JetBrains Mono', monospace;
 }
+
 h1,h2 { 
     font-weight: 900;
 }
-h3 {
-    color: green; /*lighter green, lime preferably */
+
+p {
+    font-size: 15px;
+    color: #606060;
 }
+
+h3 {
+    color: var(--main-accent-color);
+}
+
+img { /*this entire thing serves to center all pictures*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+}
+
 h4 {
     font-weight: 100;
     color: #606060;
