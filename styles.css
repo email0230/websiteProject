@@ -53,7 +53,7 @@ h1,h2 {
     font-weight: 900;
 }
 
-p {
+p,figcaption {
     font-size: 15px;
     color: #606060;
 }
@@ -66,7 +66,7 @@ img { /*this entire thing serves to center all pictures*/
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%; 
+    width: 100%; 
 }
 
 h4 {
